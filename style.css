@@ -1,0 +1,44 @@
+:root{
+--Dark-Grayish-Blue: hsl(227, 12%, 61%);
+--Very-Dark-Blue: hsl(233, 12%, 13%);
+--Very-Pale-Red: hsl(13, 100%, 96%);
+--blanco: hsl(0, 0%, 98%);
+
+--naranja: hsl(12, 88%, 59%);
+--azul: hsl(228, 39%, 23%);
+
+}
+
+html {
+    font-size: 62.5%; /* Now 10px = 1rem! */
+}
+  
+body {    
+    
+    font-size: 1.6rem; /* 1.6rem = 16px (10px * 1.6) */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.navegacionPrincipal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+button{
+    background-color: var(--naranja);
+    border-radius: 2rem;
+    border-style: none;
+    padding: 0 2rem;
+    height: 4rem;
+    font-weight: 700;
+    color: var(--blanco);
+    
+}
