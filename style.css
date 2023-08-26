@@ -1,7 +1,7 @@
 :root{
---Dark-Grayish-Blue: hsl(227, 12%, 61%);
+--gris: hsl(227, 12%, 61%);
 --Very-Dark-Blue: hsl(233, 12%, 13%);
---Very-Pale-Red: hsl(13, 100%, 96%);
+--gris-claro: hsl(13, 100%, 96%);
 --blanco: hsl(0, 0%, 98%);
 
 --naranja: hsl(12, 88%, 59%);
@@ -14,17 +14,18 @@ html {
 }
   
 body {    
-    
+   
     font-size: 1.6rem; /* 1.6rem = 16px (10px * 1.6) */
     max-width: 80%;
     margin: 0 auto;
 }
 
-li{
-    display: inline;
-    margin-left: 2rem;
+a{
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 700;
+    margin-right: 2rem;
 }
-
 .navegacionPrincipal{
     display: flex;
     justify-content: space-between;
@@ -41,4 +42,42 @@ button{
     font-weight: 700;
     color: var(--blanco);
     
+}
+
+.imagenDesktop svg{
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    align-items: center;
+}
+
+.introLeft{
+    width: 50%;
+}
+
+.introLeft h2{
+    font-size: 6rem;
+    width: 89%;
+    margin: 0;
+}
+.introLeft p {
+    width: 55%;
+    line-height: 2.5rem;
+    margin: 2.5rem 0;
+    color:  var(--gris);
+    font-weight: 700;
+}
+
+
+.info {
+    display: flex;
+}
+
+
+footer {
+    display: flex;
 }
